@@ -1,3 +1,19 @@
-"node_modules/" 
-"backend/target/" 
-".env" 
+# React (frontend)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Spring Boot (backend)
+demo/target/
+*.log
+
+# Environment files
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
