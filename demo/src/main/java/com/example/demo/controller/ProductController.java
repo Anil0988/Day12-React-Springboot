@@ -59,7 +59,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = "http://localhost:3000") // allow React dev server
+@CrossOrigin(origins = { "http://localhost:3000", "https://day12-react-springboot-1.onrender.com" })
 
 public class ProductController {
 
